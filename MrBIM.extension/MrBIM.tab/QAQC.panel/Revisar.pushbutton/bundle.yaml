@@ -1,5 +1,0 @@
-title: Revisar\nparametros
-tooltip: Revisa parametros obligatorios por nombre exacto. Detecta vacios, ausentes y ambiguos; exporta CSV. No modifica el modelo.
-author: MrBIM | Ing. Miguel Yepez
-engine:
-  clean: true

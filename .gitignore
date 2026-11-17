@@ -1,7 +1,10 @@
-__pycache__/
-*.py[cod]
+bin/
+obj/
+dist/
+.vs/
+*.user
+*.suo
 .env
-.venv/
 *.rvt
 *.rfa
 *.csv
