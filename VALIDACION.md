@@ -6,7 +6,7 @@ Esta versión sustituye la arquitectura del prototipo anterior. Sus resultados d
 |---|---|
 | Estructura del repositorio y lectura de proyectos XML | Verificada localmente |
 | Ausencia de dependencias de extensiones externas en el código | Verificada localmente |
-| Pruebas C# de reglas y CSV | Preparadas; ejecución por confirmar en Actions o con SDK .NET 8 |
+| Pruebas C# de reglas y CSV | 14 comprobaciones aprobadas en GitHub Actions (.NET 8, Ubuntu) |
 | Compilación contra API Revit 2024 | Pendiente |
 | Compilación contra API Revit 2025 | Pendiente |
 | Scripts de compilación e instalación en Windows | Pendientes de ejecución |
@@ -30,3 +30,5 @@ Realizar en un modelo de prueba, tanto en 2024 como en 2025:
 12. Instalar, actualizar con respaldo y retirar el complemento para cada versión por separado.
 
 Las pruebas automatizadas cubren reglas sin Revit. No sustituyen esta aceptación.
+
+Evidencia: [ejecución de las 14 comprobaciones](https://github.com/IngMiguelYepez-Civil/MrBIM-Tools/actions/runs/44170732556), commit `da13bb8`. La compilación del módulo de reglas no acredita la compilación de los complementos de Revit.
