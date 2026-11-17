@@ -1,5 +1,9 @@
 # MrBIM Tools
 
+> **VERSIÓN EXPERIMENTAL · EN DESARROLLO**
+>
+> Código fuente disponible para revisión y pruebas técnicas. Aún no hay DLL ni instalador publicados y falta validar el complemento dentro de Revit 2024 y 2025. Trabaje únicamente con copias de prueba y revise los resultados antes de utilizarlos. Consulte el [aviso de pruebas](AVISO_PRUEBAS.md).
+
 **Herramientas de control de calidad BIM para Autodesk Revit 2024 y 2025.**
 
 **MrBIM · Ing. Miguel Oswaldo Yépez González**
@@ -57,3 +61,11 @@ Cero y No son valores válidos. La herramienta comprueba presencia; no determina
 - El CSV usa UTF-8 con BOM y delimitador punto y coma. Si Excel no separa las columnas, impórtalo indicando ese delimitador.
 
 Herramienta de MrBIM. Autodesk y Revit son marcas de sus respectivos titulares.
+
+## Participa en las pruebas
+
+Buscamos comentarios de profesionales BIM y desarrolladores que quieran revisar el código, compilarlo y probarlo en Revit 2024 o 2025. Los pasos técnicos están en [COMPILAR.md](COMPILAR.md).
+
+Reporte errores y propuestas en [Issues](https://github.com/IngMiguelYepez-Civil/MrBIM-Tools/issues). Indique la versión y actualización de Revit, la versión de MrBIM Tools, los pasos para reproducir el problema y el resultado esperado. No publique modelos, capturas ni datos confidenciales de proyectos.
+
+La futura conexión con IA para explicar hallazgos y proponer correcciones está en evaluación; **no está implementada en esta versión**.
