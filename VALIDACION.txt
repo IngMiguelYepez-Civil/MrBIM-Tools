@@ -1,0 +1,6 @@
+MrBIM Tools 0.1.0
+Validacion local: 7 pruebas de reglas aprobadas en CPython.
+Sintaxis de los archivos Python comprobada.
+Sin ejecucion ni prueba de integracion en Revit, IronPython o Windows.
+Prueba de aceptacion Revit 2024: PENDIENTE.
+Prueba de aceptacion Revit 2025: PENDIENTE.
